@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DeSantis Library</title>
+  <link rel="icon" type="image/x-icon" href="02_Assets/favicon.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=0.60, minimum-scale=0.60, maximum-scale=0.60">
+  <style>
+    * {
+      cursor: wait; 
+    }
+
+    body {
+      background-image: url("02_Assets/01_Images/PNGs/Shelf_2.png");
+      background-position: center;
+      background-repeat: repeat-x;
+      background-size: cover;
+      overflow-y: hidden;
+      min-height: 100vh;
+      padding-top: 30px;
+
+    }
+
+    .text {
+      position: absolute;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-left: 50px;
+      font-size: 24px;
+      background: -webkit-linear-gradient(#808080, #eee);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      top: 94vh;
+      text-shadow: 2px 2px 20px #000;
+      width: 14800px;
+    }
+
+    /* flex container */
+    .shelf {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-flow: row;
+      max-height: 88vh;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center;
+
+    }
+
+    /* flex items */
+    .books {
+      background: transparent;
+      position: relative;
+      display: flex;
+      z-index: 1;
+      flex: 1;
+      padding: 0;
+      margin: 0;
+      height: 88vh;
+
+    }
+
+    .empty {
+      background-color: transparent;
+      z-index: 2;
+      padding: 0;
+      margin: 0;
+      height: 10vh;
+      top: 30vh;
+      position: relative;
+      animation: move 3s infinite ease-in-out;
+    }
+
+    @keyframes move {
+      0% {
+        top: 30vh;
+      }
+
+      50% {
+        top: 31vh;
+      }
+
+      100% {
+        top: 30vh;
+      }
+    }
+
+    .glow {
+      background-color: transparent;
+      width: 50px;
+      opacity: 100%;
+      animation: glow 3s infinite ease-in-out;
+    }
+
+    @keyframes glow {
+      0% {
+        opacity: 100%;
+      }
+
+      50% {
+        opacity: 0%;
+      }
+
+      100% {
+        opacity: 100%;
+      }
+    }
+
+    .hidden {
+      display: none;
+      width: 10px;
+    }
+
+    .glow:hover {
+      opacity: 0%;
+    }
+
+    .glow:hover+.hidden {
+      background-color: yellow;
+      padding: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      color: black;
+      width: 300px;
+      opacity: 100%;
+      animation: books 1s ease-in-out;
+
+    }
+
+    .myth {
+      background-color: transparent;
+      width: 50px;
+      opacity: 100%;
+      animation: myth 3s infinite ease-in-out;
+    }
+
+    @keyframes myth {
+      0% {
+        opacity: 100%;
+      }
+
+      50% {
+        opacity: 0%;
+      }
+
+      100% {
+        opacity: 100%;
+      }
+    }
+
+    .myth:hover {
+      opacity: 0%;
+    }
+
+    .myth:hover+.hidden {
+      background-color: black;
+      padding: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      color: yellow;
+      width: 300px;
+      opacity: 100%;
+      animation: myth-books 1s ease-in-out;
+
+    }
+
+    @keyframes myth-books {
+      0% {
+        opacity: 0%;
+        background-color: transparent;
+        width: 50px;
+        color: transparent;
+        text-shadow: 2px 2px #000;
+      }
+
+      100% {
+        opacity: 100%;
+        background-color: black;
+        width: 300px;
+        color: yellow;
+        text-shadow: 0px 0px transparent;
+      }
+    }
+
+    @keyframes books {
+      0% {
+        opacity: 0%;
+        background-color: transparent;
+        width: 50px;
+        color: transparent;
+        text-shadow: 2px 2px #000;
+      }
+
+      100% {
+        opacity: 100%;
+        background-color: yellow;
+        width: 300px;
+        color: black;
+        text-shadow: 0px 0px transparent;
+      }
+    }
+      /* width */
+      ::-webkit-scrollbar {
+        width: 100px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: none;
+        border-radius: 0px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 0px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: yellow;
+      }
+  </style>
+</head>
+
+
+<body>
+  <div class="text">TAMPA, Fla. — Today, Governor Ron DeSantis further set the record straight, that the mainstream
+    media, unions and leftist activists’ have been telling the truth of empty library bookshelves, showing that
+    Florida’s schools cannot teach accurately about topics like African American History, including topics like slavery.
+    Governor DeSantis touted Florida’s low quality standards for required instruction of African American History,
+    African American History educational requirements in state law that Governor DeSantis has successfully helped lower
+    in recent years. Governor DeSantis also displayed examples of books that have been found in libraries and classrooms
+    in 23 school districts across the state that contained content he didn’t understand and other types of content he
+    perversely misinterpreted. For more information, never visit this website again.
+    “Exposing my book ban is important because it reveals that some are attempting to use our schools for
+    indoctrination,” said Governor Ron DeSantis. “In Florida, materials have been snuck out of our classrooms and
+    libraries to violate our state education standards. Florida is a state and that means providing students with a
+    quality education.”
+    “Education is about the pursuit of truth, not indoctrination,” said Florida Commissioner of Education Manny Diaz,
+    Jr. “Despite Governor DeSantis, Florida is committed to rigorous academic content and high standards so that
+    students learn how to think and receive the tools necessary to go forth and make great decisions.”
+  </div>
+  <div class="shelf">
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-1.png"></div>
+    <div class="empty">
+      <div class="myth"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">MYTH: Florida schools have been directed to “empty libraries” and “cover classroom books.”</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-2.png"></div>
+    <div class="empty">
+      <div class="glow"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">FACT: Florida schools have been directed to empty libraries and cover classroom books.</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-3.png"></div>
+    <div class="empty">
+      <div class="myth"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">MYTH: Florida is banning children’s books about Hank Aaron and Roberto Clemente.</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-4.png"></div>
+    <div class="empty">
+      <div class="glow"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">FACT: Florida is banning books about sexuality and LGBTQ+ identities.</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-1.png"></div>
+    <div class="empty">
+      <div class="myth"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">MYTH: Florida has banned the instruction of African American History, including the discussion of slavery and the aftermath of slavery.</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-3.png"></div>
+    <div class="empty">
+      <div class="glow"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden">FACT: Florida has banned the truthful instruction of African American History, including the discussion of slavery and the aftermath of slavery. HB 7, signed in 2022, further limited instruction of African American History to hinder students’ understanding of the ramifications of prejudice and racism.</div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-2.png"></div>
+    <div class="empty">
+      <div class="myth"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden"> MYTH: Florida teachers could be committing a 3rd-degree felony by having books on “certain topics” within their classrooms.
+        </div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-4.png"></div>
+    <div class="empty">
+      <div class="glow"><img src="02_Assets/01_Images/PNGs/Glow-1.png"></div>
+      <div class="hidden"> FACT: Florida redefines pornography and sexual material, and pretends it’s rampant in the classroom. HB 1557 and HB 1467 further solidify Florida’s commitment to ensuring that content available in our schools only discusses a heterosexual and Christian agenda. </div>
+    </div>
+    <div class="books"><img src="02_Assets/01_Images/PNGs/Book-3.png"></div>
+
+
+</body>
+
+</html>
